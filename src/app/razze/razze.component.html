@@ -1,0 +1,12 @@
+<h2 class="titolo">Choose the race to see the characteristics</h2>
+
+<section class = "corpo">
+  <section class = "bottoni">
+    <div *ngFor = "let id of lista; index as i">
+      <button (click) = "richiama(lista[i].race[i])" class="ombra btn btn-outline-danger">{{lista[i].race[i]}}</button><br>
+    </div>    
+  </section>
+
+  <app-singola-razza [razza]="id" [nome]="name" [pass]="passaggio" [dati]="roba"></app-singola-razza>
+
+</section>

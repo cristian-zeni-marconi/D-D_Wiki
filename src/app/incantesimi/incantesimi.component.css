@@ -1,0 +1,28 @@
+button{
+  width: 110px;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ombra{
+  text-shadow: 2px 2px 2px white;
+}
+
+.bottoni{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.corpo{
+  display: flex;
+  gap: 10px;
+}
+
+.titolo{
+  font-family: 'Macondo', cursive;
+}
